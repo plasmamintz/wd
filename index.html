@@ -5,29 +5,98 @@
   <meta charset="utf-8">
   <title>plasma's swag site</title>
   <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <hr>
-  <img src="images/saki gif.gif" alt="funny yellow girl from zombieland saga" class="saki">
-  <h1>Plasma</h1>
-  <p><em>hi im plasma</em></p>
-  <p>this is some kind of test website that im programming at the moment</p>
-  <hr>
-  <h3>Top 3 Funnies</h3>
-  <ol>
-    <li><a class="hyperlink" href="saki wawa.html">saki nikaido</a></li>
-    <li></li>
-    <li></li>
-  </ol>
-  <p>thats all my funnies</p>
-  <hr>
-  <h3>a game.</h3>
-  <p>now with 8 unique endings!!!</p>
-  <h5>please play it.</h5>
-  <br>
-  <a class="play" href="start.html">play the game</a>
-  <br>
-  <br>
-  <hr>
+  <div class="nav">
+    <div id="logo">
+      <img src="images/Plasma Logo.png" alt="plasmalogo" width=70px>
+    </div>
+    <a href="index.html">
+      <div id="home">
+        <h2>HOME</h2>
+      </div>
+    </a>
+    <a href="#infoa">
+      <div id="info">
+        <h2>INFO</h2>
+      </div>
+    </a>
+    <a href="#topa">
+      <div id="top3">
+        <h2>TOP 3</h2>
+      </div>
+    </a>
+    <a href="#gamea">
+      <div id="game">
+        <h2>GAMES</h2>
+      </div>
+    </a>
+  </div>
+
+  <div class="header">
+    <img src="images/saki gif.gif" alt="funny yellow girl from zombieland saga" class="saki">
+    <h1>Plasma</h1>
+    <hr>
+    <h2><em>hi, im plasma.</em></h2>
+    <p>and this is my weird website that i keep changing</p>
+    <hr id="infoa">
+  </div>
+
+  <div class="info">
+    <h1 class="subhead">information</h1>
+    <br>
+    <h2>where am i?</h2>
+    <p>this is plasma's website! thats me. im plasma.<br><br>right now you're on my homepage. here youll find my information, my monthly top 3 list, and my completed webgames. use the navigation bar at the top to find your way around (although
+      scrolling will easily suffice).</p>
+        <p  id="topa"></p>
+  </div>
+
+  <div class="top3">
+    <h1 class="subhead">top 3</h1>
+    <br>
+    <h2>what is this?</h2>
+    <p>i decided that every month, i'd make a list of my personal top 3 <em>somethings.</em> every month, i'll think up a topic, and then i'll post my ranking of what i think the top 3 <em>somethings</em> of that topic are. <br><br>...it makes more
+      sense when you see it.</p>
+    <br>
+    <h1 class="subsubhead">august: top 3 <em>zombies</em></h1>
+    <ol>
+      <li><a class="hyperlink" href="saki wawa.html">saki</a></li>
+      <li></li>
+      <li></li>
+    </ol>
+    <br>
+    <br>
+    <h2 id="gamea">check back next month for the next top 3 list!</h2>
+  </div>
+
+  <div class="game">
+    <h1 class="subhead">webgames</h1>
+    <br>
+    <h2>what are these?</h2>
+    <p>i dont really have a schedule, but every now and then, i'll try to design and publish a story based visual novel-esque webgame where you receive a unique ending based on the choices you make. <br><br>i currently only have one webgame
+      developed, but i put my heart and soul into it, so hopefully you'll enjoy it!! </p>
+    <br>
+    <h1 class="subsubhead">game list:</h1>
+    <br>
+    <div class="thumbnails">
+      <img class="thumbnail" src="images/entrance.png" alt="creepy house">
+    </div>
+    <div class="desc">
+      <h2>undead</h2>
+      <p><strong><em>undead</em></strong> is my first webgame! explore an ominous house and discover the secrets of the daunting manor! this webgame includes 8 endings, countless deaths, and hopefully a few laughs. enjoy!!</p>
+      <h3><em>August 12, 2020</em></h3>
+      <a class="play" href="start.html">play the game</a>
+    </div>
+    <br>
+    <br>
+  </div>
+
+  <footer class="foot">
+    <img src="images/Plasma Logo.png" alt="logo" width=80px>
+  </footer>
+
+
 </body </html>
