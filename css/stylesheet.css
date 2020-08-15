@@ -69,6 +69,7 @@ footer{
   border-radius: 8px;
   border: solid;
   color: black;
+  font-size: 1.5rem;
 }
 
 .play:hover{
