@@ -173,6 +173,14 @@ footer{
   top: 30px;
 }
 
+.thumbnail2{
+  border-radius: 10px;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
 .desc{
   position: absolute;
   left: 50%;
