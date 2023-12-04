@@ -53,7 +53,7 @@ footer{
   padding-top: 10px;
   background-color: #3e206d;
   position: absolute;
-  top: 3500px;
+  top: 4000px;
 }
 
 /* --------------------SELECTORS-------------------*/
@@ -165,7 +165,7 @@ footer{
   width: 50%;
 }
 
-.thumbnail{
+.thumbnaila{
   border-radius: 10px;
   width: 50%;
   position: absolute;
@@ -173,12 +173,12 @@ footer{
   top: 30px;
 }
 
-.thumbnail2{
+.thumbnailb{
   border-radius: 10px;
   width: 50%;
   position: absolute;
   right: 0;
-  top: 60px;
+  top: 515px;
 }
 
 .desc{
