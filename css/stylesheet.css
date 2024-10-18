@@ -90,6 +90,13 @@ footer{
   margin-top: 40px;
 }
 
+.signature{
+  width: 100%;
+  max-width: 800px;
+  border-width: .25rem;
+  margin-top: 40px;
+}
+
 .nav{
   background-color: #916dd5;
   width: 100%;
@@ -132,7 +139,7 @@ footer{
 .top3{
   position: absolute;
   width: 100%;
-  top: 1350px;
+  top: 1450px;
   margin: 30px auto;
   padding: 20px 20% 30px;
   background-color: #e4ccff;
